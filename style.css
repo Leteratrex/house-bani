@@ -1,0 +1,34 @@
+html, body {
+	font-family: 'Arimo', sans-serif;
+	background-color: #f5f5f5;
+}
+
+.infobar {
+	font-size: 12px;
+}
+
+.divline {
+	color: #646464;
+	font-size: 30px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.allprojects {
+	width: 300px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.32px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+
+.selfpeer {
+	font-size: 14px;
+	font-weight: 700;
+	color: #3c3c3c;
+}

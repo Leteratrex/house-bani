@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Дома-Бани</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!--
+		Верхняя панель с информацией
+	-->
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-secondary border-bottom shadow-sm infobar">
+	  <h5 class="my-0 mr-md-auto font-weight-bolder text-light infobar">Дома и бани из древесины под ключ</h5>
+	  <nav class="my-2 my-md-0 mr-md-3">
+	    <a class="p-2 text-light" href="#">+7 (495) 266-80-86</a>
+	    <a class="p-2 text-light" href="#">info@doma-bani.moscow</a>
+	    <a class="p-2 text-light" href="#">г. Москва, ул. Дорогобужская, д. 14</a>
+	    <a class="p-2 text-light" href="#"><img src="img/facebook-logo.png"></a>
+	    <a class="p-2 text-light" href="#"><img src="img/vk.png"></a>
+	  </nav>
+	  <span class="p-2 text-light" href="#">Режим:</span>
+	  <a class="p-2 text-light" href="#"><img src="img/sun.png"></a>
+	  <a class="p-2 text-light" href="#"><img src="img/crescent-moon-phase.png"></a>
+	  <a class="p-2 text-light" href="#">Размер шрифта:</a>
+	  <a class="p-2 text-light" href="#"><img src="img/А.png"></a>
+	  <a class="p-2 text-light" href="#"><img src="img/Аmedium.png"></a>
+	  <a class="p-2 text-light" href="#"><img src="img/Аsmall.png"></a>
+	</div>
+
+	<!--
+		Панель навигации
+	-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#"><img src="img/doma-bani-logo.png"></a>
+		<!--
+			Кнопка при уменьшении экрана
+		-->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarsExample05">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">О компании</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Проекты</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown05">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Фундамент</a>
+	      </li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Наши работы</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Акции</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Контакты</a>
+				</li>
+				<form class="form-inline my-2 my-md-0">
+	      	<input class="form-control" type="text" placeholder="Поиск по сайту">
+	    	</form>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/calculator.png">Калькулятор</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown05">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><img src="img/star.png">В избраном</a>
+				</li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<!--
+	 Карусель с предложениями
+	-->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#777" width="100%" height="100%"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#777" width="100%" height="100%"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect fill="#777" width="100%" height="100%"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>One more for good measure.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+	<!--
+		Разделительная полоса
+	-->
+	<div class="mt-3 ml-3">
+		<img src="img/doma-bani-roof.png" alt="крыша от логотипа">
+		<p class="divline">Популярные проекты</p>
+	</div>
+
+	<!--
+		Примеры работ
+	-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="d-flex p-2 bd-highlight">
+				<img src="img/home1.png" class="img-fluid">
+			</div>
+			<div class="d-flex p-2 bd-highlight">
+				<img src="img/home2.png" class="img-fluid">
+			</div>
+		</div>
+		<div class="row">
+			<div class="d-flex p-2 bd-highlight">
+				<img src="img/home3.png" class="img-fluid">
+			</div>
+			<div class="d-flex p-2 bd-highlight">
+				<img src="img/home4.png" class="img-fluid">
+			</div>
+		</div>
+		<div class="text-center">
+			<button type="button" class="btn btn-outline-success allprojects">Все проекты</button>
+		</div>
+	</div>
+
+	<!--
+		Разделительная полоса
+	-->
+	<div class="ml-3">
+		<img src="img/doma-bani-roof.png" alt="крыша от логотипа">
+		<p class="divline">ПОЧЕМУ ВЫГОДНО ОБРАТИТЬСЯ К НАМ</p>
+	</div>
+
+	<!--
+		Блок самопиара
+	-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<img src="img/drawing-house-plan.png">
+				<p class="selfpeer">БОЛЕЕ 800 ТИПОВЫХ ПРОЕКТОВ</p>
+			</div>
+			<div class="col">
+				<p class="selfpeer"><img src="img/homepeer.png">БОЛЕЕ 400 ПОСТРОЕННЫХ ОБЪЕКТОВ</p>
+			</div>
+			<div class="col">
+				<p class="selfpeer"><img src="img/signing-the-contract.png">ГАРАНТИЯ НА ВСЕ ВИДЫ РАБОТ ПО ДОГОВОРУ</p>
+			</div>
+			<div class="col">
+				<p class="selfpeer"><img src="img/business-agreement.png">ГИБКАЯ ЦЕНОВАЯ ПОЛИТИКА</p>
+			</div>
+			<div class="col">
+				<p class="selfpeer"><img src="img/seeding.png">ЭКОЛОГИЧЕСКИ ЧИСТЫЕ СТРОИТЕЛЬНЫЕ МАТЕРИАЛЫ</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="img/circular-graphic-of-business-cycle-or-circuit.png">
+				<p class="selfpeer">КОМПАНИЯ ПОЛНОГО ЦИКЛА: ОТ ПРОИЗВОДСТВА ДО СТРОИТЕЛЬСТВА</p>
+			</div>
+			<div class="col">
+				<p class="selfpeer"><img src="img/construction-worker.png">ПРИМЕНЕНИЕ САМЫХ ПЕРЕДОВЫХ ТЕХНОЛОГИЙ В ПРОИЗВОДСТВЕ</p>
+			</div>
+			<div class="col">
+				<p class="selfpeer"><img src="img/pine-tree.png">СТРОИМ ИЗ 4-Х ВИДОВ ДРЕВЕСИНЫ: ЕЛЬ, СОСНА, ЛИСТВЕННИЦА И КЕДР</p>
+			</div>
+			<div class="col">
+				<p class="selfpeer"><img src="img/gerb.png">КВАЛИФИЦИРОВАННЫЕ БРИГАДЫ, РУССКИЕ</p>
+			</div>
+			<div class="col">
+				<p class="selfpeer"><img src="img/calendar-day-15.png">БОЛЕЕ 15 ЛЕТ ОПЫТА РАБОТЫ</p>
+			</div>
+		</div>
+	</div>
+
+	<!--
+	Разделительная полоса
+	-->
+	<div class="ml-3">
+		<img src="img/doma-bani-roof.png" alt="крыша от логотипа">
+		<p class="divline">ОТЗЫВЫ НАШИХ ЗАКАЗЧИКОВ</p>
+	</div>
+
+	<!--
+		Блок с отзывами заказчиков
+	-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-3">
+				<img src="img/feedback1.png" alt="Видеоотзыв">
+				<h6 class="text-center">ДОМ ИЗ КЛЕЁННОГО БРУСА 06-611</h6>
+				<p>Татьяна, Владимир</p>
+				<p>Стоит в поле теремок, теремок Он не низок не высок,
+					не высок... Если думаете, что это сказка - то нет,
+					это про мой дом. К нам на участкок будто бы сошли герои
+					картины Васнецова"Три богатыря". И вот такие три Богатыря,
+					представленные фирмой, построили это чудо, живя в спартанских
+					условиях. Ну а теперь серьезно. Огромное спасибо представителю
+					фирмы Владимиру, под руководством которого появилась
+					наша сказка. Он профессионально и с легкостью помог дополнить
+					изначальный проект, так что бы он удовлетворял нашим
+					"хотелкам". Фирма добросовестно, качественно и в срок
+					выполнила свою работу. P.S. Мы не думали что дом окажется
+					таким большим и оочень красивым.:) P.P.S. Отдельное спасибо
+					субподрядчику, который возвел свайный фундамент за один день.
+					Никогда не думала, что это вообще возможно за такой срок.</p>
+			</div>
+			<div class="col-3">
+				<img src="img/feedback2.png" alt="Видеоотзыв">
+				<h6 class="text-center">ДОМ ИЗ КЛЕЁННОГО БРУСА 06-611</h6>
+				<p>Татьяна, Владимир</p>
+				<p>Стоит в поле теремок, теремок Он не низок не высок,
+					не высок... Если думаете, что это сказка - то нет,
+					это про мой дом. К нам на участкок будто бы сошли герои
+					картины Васнецова"Три богатыря". И вот такие три Богатыря,
+					представленные фирмой, построили это чудо, живя в спартанских
+					условиях. Ну а теперь серьезно. Огромное спасибо представителю
+					фирмы Владимиру, под руководством которого появилась
+					наша сказка. Он профессионально и с легкостью помог дополнить
+					изначальный проект, так что бы он удовлетворял нашим
+					"хотелкам". Фирма добросовестно, качественно и в срок
+					выполнила свою работу. P.S. Мы не думали что дом окажется
+					таким большим и оочень красивым.:) P.P.S. Отдельное спасибо
+					субподрядчику, который возвел свайный фундамент за один день.
+					Никогда не думала, что это вообще возможно за такой срок.</p>
+			</div>
+			<div class="col-3">
+				<img src="img/feedback3.png" alt="Видеоотзыв">
+				<h6 class="text-center">ДОМ ИЗ КЛЕЁННОГО БРУСА 06-611</h6>
+				<p>Татьяна, Владимир</p>
+				<p>Стоит в поле теремок, теремок Он не низок не высок,
+					не высок... Если думаете, что это сказка - то нет,
+					это про мой дом. К нам на участкок будто бы сошли герои
+					картины Васнецова"Три богатыря". И вот такие три Богатыря,
+					представленные фирмой, построили это чудо, живя в спартанских
+					условиях. Ну а теперь серьезно. Огромное спасибо представителю
+					фирмы Владимиру, под руководством которого появилась
+					наша сказка. Он профессионально и с легкостью помог дополнить
+					изначальный проект, так что бы он удовлетворял нашим
+					"хотелкам". Фирма добросовестно, качественно и в срок
+					выполнила свою работу. P.S. Мы не думали что дом окажется
+					таким большим и оочень красивым.:) P.P.S. Отдельное спасибо
+					субподрядчику, который возвел свайный фундамент за один день.
+					Никогда не думала, что это вообще возможно за такой срок.</p>
+			</div>
+			<div class="col-3">
+				<img src="img/feedback4.png" alt="Видеоотзыв">
+				<h6 class="text-center">ДОМ ИЗ КЛЕЁННОГО БРУСА 06-611</h6>
+				<p>Татьяна, Владимир</p>
+				<p>Стоит в поле теремок, теремок Он не низок не высок,
+					не высок... Если думаете, что это сказка - то нет,
+					это про мой дом. К нам на участкок будто бы сошли герои
+					картины Васнецова"Три богатыря". И вот такие три Богатыря,
+					представленные фирмой, построили это чудо, живя в спартанских
+					условиях. Ну а теперь серьезно. Огромное спасибо представителю
+					фирмы Владимиру, под руководством которого появилась
+					наша сказка. Он профессионально и с легкостью помог дополнить
+					изначальный проект, так что бы он удовлетворял нашим
+					"хотелкам". Фирма добросовестно, качественно и в срок
+					выполнила свою работу. P.S. Мы не думали что дом окажется
+					таким большим и оочень красивым.:) P.P.S. Отдельное спасибо
+					субподрядчику, который возвел свайный фундамент за один день.
+					Никогда не думала, что это вообще возможно за такой срок.</p>
+			</div>
+		</div>
+		<div class="text-center">
+			<button type="button" class="btn btn-outline-success allprojects">Все отзывы</button>
+		</div>
+	</div>
+
+	<!--
+	Разделительная полоса
+	-->
+	<div class="ml-3">
+		<img src="img/doma-bani-roof.png" alt="крыша от логотипа">
+		<p class="divline">Наши работы</p>
+	</div>
+
+	<!--
+	Примеры работ
+	-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-3">
+				<img src="img/exemple1.png">
+				<p class="text-center">ДОМА С ОТДЕЛКОЙ</p>
+			</div>
+			<div class="col-3">
+				<img src="img/exemple2.png">
+				<p class="text-center">ДОМА ШАЛЕ</p>
+			</div>
+			<div class="col-3">
+				<img src="img/exemple3.png">
+				<p class="text-center">ИЗ БЛОКОВ И КИРПИЧА</p>
+			</div>
+			<div class="col-3">
+				<img src="img/exemple4.png">
+				<p class="text-center">ИЗ КЛЕЕНОГО БРУСА</p>
+			</div>
+		</div>
+	</div>
+
+	<!--
+	Разделительная полоса
+	-->
+	<div class="ml-3">
+		<img src="img/doma-bani-roof.png" alt="крыша от логотипа">
+		<p class="divline">О КОМПАНИИ</p>
+	</div>
+
+	<!--
+		Блок о компании
+	-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<h6>ДОМА И БАНИ ИЗ ДРЕВЕСИНЫ ПОД КЛЮЧ</h6>
+				<p>СК "Дома-Бани" специализируется на использовании древесины при выполнении
+					всего комплекса работ по строительству домов и бань в Москве и Московской области.
+					Зачастую стоимость их возведения оказывается меньше, чем у других компаний.
+					Вот перечень факторов, оказывающих влияние на нашу ценовую политику:
+					<ul>
+						<li>древесина приобретается только у проверенных поставщиков, поэтому беспокоиться о ее качестве не приходится;</li>
+						<li>на своей производственной базе мы имеем возможность сушить древесину как естественным, так и камерным способом;</li>
+						<li>для изготовления профилированного бруса и оцилиндрованного бревна мы используем новейшее оборудование и технологии, позволяющие сокращать сроки строительства;</li>
+						<li>оцилиндрованное бревно изготовляется нами с учетом требований ГОСТа 9463 от 1988 года;</li>
+						<li>профилированный брус мы готовим, строго соблюдая указания ГОСТа 11047 от 1990 года;</li>
+					</ul>
+					Это позволяет нам осуществлять строительство домов и бань из бревна и бруса под ключ,
+					причем выполнять весь комплекс рабочих операций, включая и отделочные работы, за один сезон.
+				</p>
+			</div>
+			<div class="col">
+				<h6>НЕКОТОРЫЕ СООБРАЖЕНИЯ ПО ВЫБОРУ ОСНОВНОГО СТРОИТЕЛЬНОГО МАТЕРИАЛА</h6>
+				<p>Процесс выполнения заказа на строительство бревенчатого или брусового дома мы подразделяем на несколько этапов:
+					<ol>
+						<li>выезд на место для ознакомления с рельефом строительной площадки, наличием подъездных путей, оценки возможности подключения к сетям водопровода и электроснабжения;</li>
+						<li>подбор типового проекта из нашего каталога и его «привязка» по месту или сбор данных для разработки индивидуального проекта. Проекты домов из бревна и бруса создаются нами в полном соответствии с требованиями СНиПа 31-02 от 2001 года;</li>
+						<li>для изготовления профилированного бруса и оцилиндрованного бревна мы используем новейшее оборудование и технологии, позволяющие сокращать сроки строительства;</li>
+						<li>работы на строительной площадке начинаются с создания фундамента, который бывает ленточным, столбчатым, свайным или плитным. В зависимости от геологических условий фундамент может быть мелкозаглубленным или с подошвой ниже уровня промерзания;</li>
+						<li>монтаж стеновых конструкций;</li>
+						<li>кровельные работы;</li>
+						<li>отделочные работы.</li>
+					</ol>
+					Это позволяет нам осуществлять строительство домов и бань из бревна и бруса под ключ,
+					причем выполнять весь комплекс рабочих операций, включая и отделочные работы, за один сезон.
+				</p>
+			</div>
+			<div class="col">
+				<h6>НЕКОТОРЫЕ СООБРАЖЕНИЯ ПО ВЫБОРУ ОСНОВНОГО СТРОИТЕЛЬНОГО МАТЕРИАЛА</h6>
+				<p>Процесс выполнения заказа на строительство бревенчатого или брусового дома мы подразделяем на несколько этапов:
+					<ol>
+						<li>выезд на место для ознакомления с рельефом строительной площадки, наличием подъездных путей, оценки возможности подключения к сетям водопровода и электроснабжения;</li>
+						<li>подбор типового проекта из нашего каталога и его «привязка» по месту или сбор данных для разработки индивидуального проекта. Проекты домов из бревна и бруса создаются нами в полном соответствии с требованиями СНиПа 31-02 от 2001 года;</li>
+						<li>для изготовления профилированного бруса и оцилиндрованного бревна мы используем новейшее оборудование и технологии, позволяющие сокращать сроки строительства;</li>
+						<li>работы на строительной площадке начинаются с создания фундамента, который бывает ленточным, столбчатым, свайным или плитным. В зависимости от геологических условий фундамент может быть мелкозаглубленным или с подошвой ниже уровня промерзания;</li>
+						<li>монтаж стеновых конструкций;</li>
+						<li>кровельные работы;</li>
+						<li>отделочные работы.</li>
+					</ol>
+					Это позволяет нам осуществлять строительство домов и бань из бревна и бруса под ключ,
+					причем выполнять весь комплекс рабочих операций, включая и отделочные работы, за один сезон.
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!--
+		JavaScript код
+	-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+	<script src="/docs/4.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+</body>
+</html>
